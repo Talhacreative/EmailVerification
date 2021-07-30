@@ -1,0 +1,108 @@
+body {
+ margin-left: 0px;
+ padding: 0px;
+ height: 0px;
+ width: 100%;
+ background-color:rgb(117, 114, 90);
+ 
+
+	background-size: cover;
+	
+}
+.intro{
+    height: 100%;
+ width: 100%;
+ background:url("https://www.pexels.com/photo/photo-of-lightning-1114690/");
+ background-repeat: no-repeat;
+ background-size: cover;
+ display: table;
+}
+
+.content{
+    width: 26vw;
+    height: 20vw;
+    margin: auto;
+    border-radius: 20%;
+    display: table;
+    background-color: rgba(102, 68, 68, 0.863);
+  
+    text-align: center;
+    padding: 1%;
+    margin-top: 30px;
+ 
+}
+
+.input{
+ height:9% ;
+ width: 60%;
+ color: rgb(246, 114, 26);
+ background-color: rgba(230, 236, 236, 0.863);
+}
+.input ::placeholder{
+    color: rgb(101, 64, 224);
+}
+/*.btn{
+   
+    background-color: yellow;
+    color:red;
+}
+.btn :hover{
+    background-color: seagreen;
+    color: springgreen;
+}*/
+.btn{
+    background-color: rgb(46, 39, 37);
+    
+    padding: 1px 15px;
+    margin: 3px;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: -130px;
+    margin-bottom: 50px;
+
+}
+.btn p{
+    color: #ffffff;
+}
+.btn:hover{
+    background-color: rgb(207, 207, 50);
+}
+.counter
+{
+    background-color: #eaecf0;
+    text-align: center;
+}
+.employees,.customer,.design,.order
+{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.counter-count
+{
+    font-size: 18px;
+    background-color: #00b3e7;
+    border-radius: 50%;
+    position: relative;
+    color: #ffffff;
+    text-align: center;
+    line-height: 92px;
+    width: 92px;
+    height: 92px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: inline-block;
+}
+
+.employee-p,.customer-p,.order-p,.design-p
+{
+    font-size: 24px;
+    color: #000000;
+    line-height: 34px;
+}
+
+thead td{
+padding-left: 0%;
+}
